@@ -1,9 +1,9 @@
 import React from 'react'
 
-function AuthRedirect.jsx() {
+function AuthRedirect() {
   return (
     <div>AuthRedirect.jsx</div>
   )
 }
 
-export default AuthRedirect.jsx
+export default AuthRedirect

@@ -1,15 +1,14 @@
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from '@/components/ui/select';
 import { FilterGender, FilterStatus } from '@/types/employee';
 import { Search, X } from 'lucide-react';
-import React from 'react'
-import { Input } from '../ui/input';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
 import { Button } from '../ui/button';
+import { Input } from '../ui/input';
 
 
 interface SearchFilterProps {

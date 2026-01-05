@@ -1,6 +1,6 @@
 import { Employee } from '@/types/employee';
 import { format } from 'date-fns';
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react';
 
 
 

@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import { useEmployees } from '@/contexts/EmployeeContext';
 import { Employee, FilterGender, FilterStatus } from '@/types/employee';
 import { Plus, Printer, UserCheck, Users, UserX } from 'lucide-react';
-import React, { useMemo, useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react';
 import { useReactToPrint } from 'react-to-print';
 
 function Dashboard() {

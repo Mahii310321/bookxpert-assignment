@@ -1,19 +1,8 @@
 import { useEmployees } from '@/contexts/EmployeeContext';
 import { Employee } from '@/types/employee';
 import { Edit, Printer, Trash2, User } from 'lucide-react';
-import React, { useState } from 'react'
+import { useState } from 'react';
 
-import {
-    Table,
-    TableBody,
-    TableCell,
-    TableHead,
-    TableHeader,
-    TableRow,
-} from '@/components/ui/table';
-import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
-import { Switch } from '../ui/switch';
-import { Button } from '../ui/button';
 import {
     AlertDialog,
     AlertDialogAction,
@@ -24,8 +13,19 @@ import {
     AlertDialogHeader,
     AlertDialogTitle,
 } from '@/components/ui/alert-dialog';
-import { format } from 'date-fns';
+import {
+    Table,
+    TableBody,
+    TableCell,
+    TableHead,
+    TableHeader,
+    TableRow,
+} from '@/components/ui/table';
 import { getInitials } from '@/lib/utils';
+import { format } from 'date-fns';
+import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
+import { Button } from '../ui/button';
+import { Switch } from '../ui/switch';
 
 
 
@@ -72,7 +72,7 @@ function EmployeeTable({ employees, onEdit, onPrint }: EmployeeTableProps) {
                 <Table>
                     <TableHeader>
                         <TableRow className="bg-muted/50">
-                            <TableHead className="w-[100px]">ID</TableHead>
+                            <TableHead className="w-25">ID</TableHead>
                             <TableHead>Profile</TableHead>
                             <TableHead>Full Name</TableHead>
                             <TableHead>Gender</TableHead>

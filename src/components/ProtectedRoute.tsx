@@ -1,0 +1,14 @@
+import React from 'react'
+
+
+
+interface ProtectedRouteProps {
+  children: React.ReactNode;
+}
+function ProtectedRoute({ children }: ProtectedRouteProps) {
+  return (
+    <div>ProtectedRoute</div>
+  )
+}
+
+export default ProtectedRoute

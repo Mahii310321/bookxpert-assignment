@@ -46,7 +46,7 @@ export function EmployeeProvider({ children }: EmployeeProviderProps) {
     }, []);
 
     function saveToStorage(data: Employee[]) {
-        localStorage.setItem('employees', JSON.stringify(employees));
+        localStorage.setItem('employees', JSON.stringify(data));
     }
 
     function generateId() {

@@ -13,6 +13,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Button } from '../ui/button';
 import { Avatar, AvatarFallback } from '../ui/avatar';
+import { getInitials } from '@/lib/utils';
 
 function Header() {
     const { user, logout } = useAuth();
@@ -23,14 +24,6 @@ function Header() {
         navigate('/login', { replace: true });
     };
 
-    function getInitials(name: string) {
-        return name
-            .split(' ')
-            .map(n => n[0])
-            .join('')
-            .toUpperCase()
-            .slice(0, 2);
-    };
     return (
         <header className="bg-card/80 backdrop-blur-md border-b border-border sticky top-0 z-50 shadow-sm">
             <div className="container mx-auto px-4 py-3">

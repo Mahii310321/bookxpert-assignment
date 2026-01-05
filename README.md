@@ -2,32 +2,24 @@
 
 A modern, feature-rich Employee Management System built with React, TypeScript, and Tailwind CSS.
 
-
-
 ---
+
 ## 🎥 Screen Recording (Mandatory Demo)
 
-
-Watch the complete application walkthrough here:  
+Watch the complete application walkthrough here:
 
 👉 https://drive.google.com/file/d/1oS2yFsoYZCTuBt5UpxwW0EawW364Cs9C/view?usp=sharing
-
 
 The video demonstrates:
 
 - Login flow & authentication
-
 - Dashboard overview
-
 - Add / Edit / Delete employee
-
 - Image upload with preview
-
 - Search & combined filters
-
 - Active / Inactive toggle
-
 - Print functionality
+
 ---
 
 ## 🚀 Tech Stack
@@ -167,29 +159,6 @@ npm run preview
 3. **Accessibility** : Radix UI primitives ensure ARIA-compliant, keyboard-navigable components
 4. **Print Optimization** : Separate print-optimized view with clean, minimal styling
 5. **Developer Experience** : TypeScript for type safety, ESLint for code quality, and Vite for fast builds
-
-## 🔐 Security Note
-
-This is a demo application using mock authentication. In a production environment, you would:
-
-* Implement proper backend authentication (JWT, OAuth, etc.)
-* Use secure session management with httpOnly cookies
-* Add proper API endpoints with rate limiting
-* Implement server-side validation and sanitization
-* Use environment variables for sensitive configuration
-* Add CSRF protection
-
-## 🚀 Future Enhancements
-
-* [ ] Backend API integration
-* [ ] Real-time updates with WebSockets
-* [ ] Advanced filtering and sorting options
-* [ ] Export to CSV/Excel functionality
-* [ ] Bulk employee operations
-* [ ] Employee attendance tracking
-* [ ] Role-based access control (RBAC)
-* [ ] Audit logs for all operations
-* [ ] Advanced analytics dashboard
 
 ## 📝 License
 

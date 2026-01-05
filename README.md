@@ -1,7 +1,34 @@
-
 # Employee Management Dashboard
 
 A modern, feature-rich Employee Management System built with React, TypeScript, and Tailwind CSS.
+
+
+
+---
+## 🎥 Screen Recording (Mandatory Demo)
+
+
+Watch the complete application walkthrough here:  
+
+👉 https://drive.google.com/file/d/1oS2yFsoYZCTuBt5UpxwW0EawW364Cs9C/view?usp=sharing
+
+
+The video demonstrates:
+
+- Login flow & authentication
+
+- Dashboard overview
+
+- Add / Edit / Delete employee
+
+- Image upload with preview
+
+- Search & combined filters
+
+- Active / Inactive toggle
+
+- Print functionality
+---
 
 ## 🚀 Tech Stack
 
